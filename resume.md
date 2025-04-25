@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Resume
+permalink: /resume/
 ---
 
-#guys this is my resume ?
-
-<iframe src="https://purdue0-my.sharepoint.com/personal/wall58_purdue_edu/Documents/Documents/michael-wall-resume.pdf?ga=1" width="75%" height="800px"></iframe>
+<iframe src="https://drive.google.com/file/d/1F8GNqerXanRCSAqzW-qXjre5UIRp8VlH/preview" width="75%" height="800px"></iframe>
 
