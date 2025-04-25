@@ -1,9 +1,9 @@
 ---
 # the default layout is 'page'
-Title: About Me
+Title: About Me   #this does nothing
 icon: fas fa-info-circle
 order: 4
-toc: true   #this dont work unfortunately
+toc: true   #this also dont work
 ---
 
 Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm currently exploring the vast scope of Mechanical Engineering, but I'm particularly interested by how physics and mathmatics blend into engineering.
