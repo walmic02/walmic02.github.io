@@ -3,6 +3,7 @@
 Title: About Me
 icon: fas fa-info-circle
 order: 4
+toc: true   #this dont work unfortunately
 ---
 
 Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm currently exploring the vast scope of Mechanical Engineering, but I'm particularly interested by how physics and mathmatics blend into engineering.
@@ -30,6 +31,6 @@ For me, engineering is all about pushing boundaries - finding out what I'm capab
 
 Outside of engineering, I play piano in the Purdue Jazz Band and enjoy going on trips with the Purdue Outing Club.
 
-### Have any questions? Don't hesitate to reach out! I'd love to hear from you.
+### Have any questions? Reach out at [wall58@purdue.edu](mailto:wall58@purdue.edu)! I'd love to hear from you.
 
 **[View my resume here](/resume)**
