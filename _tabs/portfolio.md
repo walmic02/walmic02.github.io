@@ -20,4 +20,4 @@ Delivered an interactive Python-based game to teach visitors about wolves at a l
 
 **Utilized: Python (with PyGame), GitHub, Microsoft Teams**
 
-[read full write-up here](/posts/EPICS-WOLF-team/)
+[read full write-up here](/)

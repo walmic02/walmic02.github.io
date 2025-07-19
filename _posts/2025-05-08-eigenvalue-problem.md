@@ -3,8 +3,8 @@ layout: post
 title: The Eigenvalue Problem That Changed How I Saw Math
 description: Reconstructing and reflecting on the problem that made math feel alive to me.
 date: 2025-05-08 22:46 -0400
-categories: [Blog, Misc]
-Tags: [math, linear-algebra]
+#categories: [Blog, Misc]
+#Tags: [math, linear-algebra]
 math: true
 ---
 
