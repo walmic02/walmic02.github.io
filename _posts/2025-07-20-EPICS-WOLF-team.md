@@ -3,6 +3,7 @@ layout: post
 title: Educational Game Design – EPICS WOLF Team (Purdue University)
 description: 
 date: 2025-07-20 22:46 -0400
+permalink: /EPICS-WOLF-team/
 ---
 
 *group photo here*
