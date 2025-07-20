@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Educational Game Design – EPICS WOLF Team (Purdue University)
-description: 
+description: Student-led community service based engineering team
 date: 2025-07-20 15:46 -0400
 ---
 
@@ -16,7 +16,7 @@ Our task was to develop an interactive video game for their education center tha
 - Educational focus on wolf behavior in the wild
 - Compatible with the center’s existing computer display
 
-![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg){: width="1925" height="1334" .w-50 .right}
+![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg){: .w-50 .right}
 Our development followed the established EPICS design process, including rigorous documentation, iterative prototyping, and stakeholder feedback integration.
 
 ## Contributions

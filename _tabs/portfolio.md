@@ -20,4 +20,4 @@ Delivered an interactive Python-based game to a local wolf and wildlife sanctuar
 
 **Utilized: Python, GitHub, Microsoft Teams**
 
-[read full write-up here](/)
+[read full write-up here](/posts/EPICS-WOLF-team/)
