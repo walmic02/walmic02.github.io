@@ -16,9 +16,9 @@ Our task was to develop an interactive video game for their education center tha
 - Educational focus on wolf behavior in the wild
 - Compatible with the center’s existing computer display
 
-Our development followed the established EPICS design process, including rigorous documentation, iterative prototyping, and stakeholder feedback integration.
 ![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg){: width="1925" height="1334" .w-50 .right}
+Our development followed the established EPICS design process, including rigorous documentation, iterative prototyping, and stakeholder feedback integration.
 
-## My Role
+## Contributions
 
 As a member of the coding subteam within an 11-person interdisciplinary group, I was responsible for designing, implementing, and debugging core game functionality using Python and PyGame. 
