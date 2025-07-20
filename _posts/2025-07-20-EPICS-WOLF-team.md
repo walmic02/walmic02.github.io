@@ -17,7 +17,7 @@ Our task was to develop an interactive video game for their education center tha
 - Compatible with the center’s existing computer display
 
 Our development followed the established EPICS design process, including rigorous documentation, iterative prototyping, and stakeholder feedback integration.
-![Desktop View](assets\posts\EPICS-WOLF-team\EPICS-design-cycle.jpg){: width="1925" height="1334" .w-50 .right}
+![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg){: width="1925" height="1334" .w-50 .right}
 
 ## My Role
 
