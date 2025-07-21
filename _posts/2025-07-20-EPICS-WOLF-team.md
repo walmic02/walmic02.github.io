@@ -18,8 +18,6 @@ Our task was to develop an interactive video game for their education center tha
 
 Our development followed the established EPICS design process, including rigorous documentation, iterative prototyping, and stakeholder feedback integration.
 
-![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg){: .w-50}
-
 ## Contributions
 
 As a member of the coding subteam within an 11-person interdisciplinary group, I was responsible for designing, implementing, and debugging core game functionality using Python and PyGame. 
