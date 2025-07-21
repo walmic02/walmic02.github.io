@@ -5,6 +5,10 @@ description: Reconstructing and reflecting on the problem that made math feel al
 date: 2025-05-08 22:46 -0400
 #categories: [Blog, Misc]
 #Tags: [math, linear-algebra]
+image:
+  path: assets/posts/eigenvalue-problem/problem.png
+  alt: Math problem from Grant Sanderson's 3 Blue 1 Brown
+---
 math: true
 ---
 
