@@ -16,7 +16,7 @@ Our task was to develop an interactive video game for their education center tha
 - Educational focus on wolf behavior in the wild
 - Compatible with the center’s existing computer display
 
-![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg){: .w-50 .right}
+![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-design-cycle.jpg)
 Our development followed the established EPICS design process, including rigorous documentation, iterative prototyping, and stakeholder feedback integration.
 
 ## Contributions
