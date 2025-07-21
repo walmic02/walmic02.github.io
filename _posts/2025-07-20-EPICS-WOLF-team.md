@@ -3,6 +3,9 @@ layout: post
 title: Educational Game Design – EPICS WOLF Team (Purdue University)
 description: Student-led community service based engineering team
 date: 2025-07-20 15:46 -0400
+image:
+  path: assets/posts/eigenvalue-problem/problem.png
+  alt: Group photo from team product delivery.
 ---
 
 *group photo here*
@@ -23,6 +26,9 @@ As a member of the coding subteam within an 11-person interdisciplinary group, I
 
 *two (?) pictures, with footnotes or maybe annotated*
 
-## Challenges
+## Challenges and Growth
 
+The first challenge I faced was my lack of knowledge regarding Pygame or game development, requiring quick adaptation through research and self teaching. Another challenge was ineffective communication within our team; lack of visibility into teammates’ contributions led to misunderstandings and resulted in decreased motivation and productivity. Furthermore, our strong personal rapport, while positive, fostered a laid-back environment and hindered productivity. These experiences helped me grow my highlighting the necessity of resilience, proactive communication, and maintaining a balance between camaraderie and focus to ensure team effectiveness.
+
+## Outcome
 
