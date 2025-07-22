@@ -8,7 +8,7 @@ image:
   alt: Group photo from team product delivery.
 ---
 
-*group photo here*
+![Desktop View](assets\posts\EPICS-WOLF-team\EPICS-team-photo.jpg)
 
 ## Overview
 
