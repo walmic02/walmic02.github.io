@@ -4,11 +4,8 @@ title: Educational Game Design – EPICS WOLF Team (Purdue University)
 description: Student-led community service based engineering team
 date: 2025-07-20 15:46 -0400
 image:
-  path: assets/posts/eigenvalue-problem/problem.png
-  alt: Group photo from team product delivery.
+  path: assets\posts\EPICS-WOLF-team\EPICS-team-photo.jpg
 ---
-
-![Desktop View](assets\posts\EPICS-WOLF-team\EPICS-team-photo.jpg)
 
 ## Overview
 
