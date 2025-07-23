@@ -25,7 +25,9 @@ As a member of the coding subteam, I was responsible for designing, developing, 
 
 ## Challenges and Growth
 
-The first challenge I faced was my lack of knowledge regarding Pygame and game development; this required quick adaptation through research and self teaching. Another challenge was ineffective communication within our team; lack of visibility into teammates’ contributions led to misunderstandings and resulted in decreased motivation and productivity. Furthermore, our strong personal rapport, while positive, fostered a laid-back and often unproductive environment. These experiences taught me the necessity of resilience, proactive communication, and maintaining a balanced team dynamic and culture. Additionally, working in a large coding environment taught me the importance of efficient modular code design and documentation - especially vital when working in a team.
+The first challenge I faced was my lack of knowledge regarding Pygame and game development; this required quick adaptation through research and self teaching. Another challenge was ineffective communication within our team; lack of visibility into teammates’ contributions led to misunderstandings and resulted in decreased motivation and productivity. Furthermore, our strong personal rapport, while positive, fostered a laid-back and often unproductive environment. 
+
+These experiences taught me the necessity of resilience, proactive communication, and maintaining a balanced team dynamic and culture. Additionally, working in a large coding environment taught me the importance of efficient modular code design and documentation - especially vital when working in a team.
 
 ## Outcome
 
