@@ -16,7 +16,7 @@ Write up about project. Delivered an interactive Python-based game to a local wo
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-team-photo-small.jpg){: .w-50}
 
-Delivered an interactive Python-based game to a local wolf and wildlife sanctuary designed to teach visitors about wolf behavior. Collaborated 3–6 hrs/week on an 11-person multidisciplinary team of engineers, developers, and designers. Maintained comprehensive design and transition documents, alongside weekly progress notebooks, ensuring clear communication and project continuity. Regularly delivered formal presentations to stakeholders, including park representatives and community members, regarding work and progress.
+Delivered an interactive Python-based game to a local wolf and wildlife sanctuary designed to teach visitors about wolf behavior. Collaborated 4–6 hrs/week with an 11-person multidisciplinary team of engineers, developers, and designers. Maintained comprehensive design and transition documents, alongside weekly progress notebooks. Regularly delivered formal presentations to stakeholders, including park representatives and community members. Developed proficiency in large-scale modular code architecture and collaborative development with GitHub.
 
 **Utilized: Python, GitHub, Microsoft Teams**
 
