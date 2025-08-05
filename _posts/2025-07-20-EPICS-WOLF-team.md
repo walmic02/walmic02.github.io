@@ -11,6 +11,7 @@ image:
 
 EPICS, or Engineering Projects In Community Service, is an organization at Purdue University in which teams of students partner with local and global community organizations to address human, community, and environmental needs. My team worked with [Wolf Park](https://visitwolfpark.org/), a local wildlife sanctuary for wolves, foxes, bison, and more.
 Our task was to develop an interactive video game for their education center that met the following specifications:
+
 - Designed to educate users on wolf behavior in the wild
 - Catered towards elementary to middle school children
 - Compatible with the center’s existing computer display
@@ -21,7 +22,9 @@ Our development followed the established EPICS design process, including rigorou
 
 As a member of the coding subteam, I was responsible for designing, developing, and debugging core game functionality. I led technical improvements across the game’s frontend and backend using Python. I redesigned the frame rate system to triple performance, implemented full-screen scaling with adaptive assets, and revamped the sound and dialogue backend with a JSON-based system for easier integration and modifiability. I independently conceived and developed the trivia-based hunting minigame, handling the concept, graphics, and logic; this transformed the core gameplay loop and became the game’s primary educational feature. I also introduced new UI features, background music, and animations to make the game feel more polished, along with numerous small bug fixes and improvements across the game.
 
-*two (?) pictures, with footnotes or maybe annotated*
+![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-trivia.jpg){: .w-50}
+_The game's trivia minigame._
+
 
 ## Challenges and Growth
 
