@@ -23,7 +23,7 @@ Our development followed the established EPICS design process, including rigorou
 As a member of the coding subteam, I was responsible for designing, developing, and debugging core game functionality. I led technical improvements across the game’s frontend and backend using Python. I redesigned the frame rate system to triple performance, implemented full-screen scaling with adaptive assets, and revamped the sound and dialogue backend with a JSON-based system for easier integration and modifiability. I led development of the trivia-based hunting minigame, handling the concept, graphics, and logic; this transformed the core gameplay loop and became the game’s primary educational feature. I also introduced new UI features, background music, and animations to make the game feel more polished, along with numerous small bug fixes and improvements across the game.
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-trivia.jpg){: .w-50}
-_The game's trivia minigame._
+_The game's trivia minigame_
 
 
 ## Challenges and Growth
