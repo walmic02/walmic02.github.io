@@ -16,10 +16,10 @@ Write up goes
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-team-photo-small.jpg){: .w-50}
 
-- Delivered an interactive Python-based game to a local wolf and wildlife sanctuary designed to teach visitors about wolf behavior.
-- Collaborated 4–6 hrs/week with an 11-person multidisciplinary team of engineers, developers, and designers.
-- Maintained comprehensive design and transition documents, alongside weekly progress notebooks. 
-- Regularly delivered formal presentations to stakeholders, including park representatives and community members.
+- Delivered an educational video game using Python for a local wildlife sanctuary’s education center to teach users about wolf behavior in the wild.
+- Utilized Python and GitHub to collaborative on game development with 11 member multidisciplinary team.
+- Maintained complete and consistent documentation to facilitate current and future development with individual weekly notebook entries and comprehensive design docs.
+- Delivered bi-semesterly presentations to update investors and stakeholders on progress.
 - Developed proficiency in large-scale modular code architecture and collaborative development with GitHub.
 
 **Utilized: Python, GitHub, Microsoft Teams**
