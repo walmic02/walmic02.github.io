@@ -14,12 +14,12 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Michael Wall | Engineering Portfolio # the main title
+title: Michael Wall #| Engineering Portfolio # the main title
 
 tagline: B.S. Mechanical Engineering, Purdue Universitys # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  An engineering portfolio and blog for Mechanical Engineering undergrad Michael Wall
+  An engineering portfolio for Mechanical Engineering undergrad Michael Wall
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
