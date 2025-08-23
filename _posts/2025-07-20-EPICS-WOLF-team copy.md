@@ -1,6 +1,6 @@
----
+s---
 layout: post
-title: Educational Game Design – EPICS WOLF Team (Purdue University)
+title: SAI-R Research Project (Bowen Laboratory, Purdue University)
 description: Student-led community service based engineering team
 date: 2025-07-20 15:46 -0400
 image:
