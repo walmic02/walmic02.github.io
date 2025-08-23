@@ -14,7 +14,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Michael Wall | Engineering Portfolio # the main title
+title: Michael Wall #| Engineering Portfolio # the main title
 
 tagline: B.S. Mechanical Engineering, Purdue Universitys # it will display as the subtitle
 
