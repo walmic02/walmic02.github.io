@@ -1,4 +1,4 @@
-s---
+---
 layout: post
 title: SAI-R Research Project (Bowen Laboratory, Purdue University)
 description: Student-led community service based engineering team
