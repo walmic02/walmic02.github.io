@@ -8,6 +8,7 @@ order: 1
 
 *picture goes here*
 
+[read full write-up here](/posts/SAI-R-project/)
 
 ## Educational Game Design – EPICS WOLF Team (Purdue University)
 ##### *Team Member, Aug 2024 – May 2025*
