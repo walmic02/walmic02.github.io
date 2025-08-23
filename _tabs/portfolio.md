@@ -8,7 +8,7 @@ order: 1
 
 *picture goes here*
 
-Write up goes
+[read full write-up here](/posts/SAI-R-project/)
 
 
 ## Educational Game Design – EPICS WOLF Team (Purdue University)
