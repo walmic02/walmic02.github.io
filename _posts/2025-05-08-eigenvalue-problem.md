@@ -81,7 +81,7 @@ $$
 This formula successfully computes $$\mathbf{A}^n$$ for all values of n! And interestingly enough, the equation for the top-right and bottom-left entries in the matrix is known as [**Binet's Formula**](https://en.wikipedia.org/wiki/Fibonacci_sequence#Binet's_formula), which is more commonly written as 
 
 $$
-F_n = \frac{\varphi^n - \psi^n}{\sqrt{5}}, \quad\varphi = \dfrac{1 + \sqrt{5}}{2} = \lambda_1, \quad\psi = \overline{\varphi} = \lambda_2
+F_n = \frac{\varphi^n - \psi^n}{\sqrt{5}}, \quad\varphi = \dfrac{1 + \sqrt{5}}{2} = \lambda_1, \quad\psi = 1 - \overline{\varphi} = \lambda_2
 $$
 
 Here, $$\varphi$$ is a value known as the [**golden ratio**](https://en.wikipedia.org/wiki/Golden_ratio); this value along with the Fibonacci pattern is found in many areas of mathematics as well as nature and design. 
