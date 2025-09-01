@@ -3,7 +3,7 @@ icon: fas fa-book-open
 order: 1
 ---
 
-# SAI-R Research Project (Bowen Laboratory, Purdue University)
+# Strengthening American Infrastructure - Research (Bowen Laboratory, Purdue University)
 ##### *Undergraduate Research Assistant, June 2025 – Present*
 
 *picture goes here*
