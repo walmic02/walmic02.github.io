@@ -3,7 +3,7 @@ icon: fas fa-book-open
 order: 1
 ---
 
-# Strengthening American Infrastructure - Research (Bowen Laboratory, Purdue University)
+## Strengthening American Infrastructure - Research (Bowen Laboratory, Purdue University)
 ##### *Undergraduate Research Assistant, June 2025 – Present*
 
 *picture goes here*
@@ -15,11 +15,20 @@ order: 1
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-team-photo-small.jpg){: .w-50}
 
-- Delivered an educational video game using Python for a local wildlife sanctuary’s education center to teach users about wolf behavior in the wild.
-- Utilized Python and GitHub to collaborative on game development with 11 member multidisciplinary team.
-- Maintained complete and consistent documentation to facilitate current and future development with individual weekly notebook entries and comprehensive design docs.
-- Delivered bi-semesterly presentations to update investors and stakeholders on progress.
-- Developed proficiency in large-scale modular code architecture and collaborative development with GitHub.
+*Wolf Game* is an educational, child oriented video game designed to educate players on wolf behavior in the wild. We designed it specifically for Wolf Park, a local wildlife sanctuary near Lafayette, IN. As part of the team, I was responsible for developing the trivia minigame, which was the game's main educational component, as well as sound implementation, animations, and more. I also optimized the frame rate, raising FPS from 15-20 to a consistent 60 FPS. 
+
+![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-trivia.jpg){: .w-50 .right}
+_The game's trivia minigame_
+
+- Designed functioning educational video game for a local community partner
+- Utilized Python and GitHub to collaborative on game development with 11 member multidisciplinary team
+- Maintained complete and consistent documentation to facilitate current and future development
+- Delivered bi-semesterly presentations to update investors and stakeholders on progress
+
+why does the project matter? what did you REALLY do?
+- worked with the park to make it simple and accessable to children, while staying educational
+- great addition to their education center, they were very pleased.
+- will help reach more children and spread the parks goal 
 
 **Utilized: Python, GitHub, Microsoft Teams**
 
