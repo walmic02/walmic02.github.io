@@ -16,7 +16,7 @@ order: 1
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-team-photo-small.jpg){: .w-50}
 
-In this project, we developed an educational, child oriented video game designed to educate players on wolf behavior in the wild. We designed it specifically for [Wolf Park](visitwolfpark.org), a local wildlife sanctuary in Battleground, IN. As part of the team, I was responsible for developing the trivia minigame, which was the game's main educational component, as well as sound implementation, animations, and more. I also optimized the frame rate, raising FPS from 15-20 to a consistent 60 FPS. 
+In this project, we developed an educational, child oriented video game designed to educate players on wolf behavior in the wild. We designed it specifically for [Wolf Park](https://visitwolfpark.org), a local wildlife sanctuary in Battleground, IN. As part of the team, I was responsible for developing the trivia minigame, which was the game's main educational component, as well as sound implementation, animations, and more. I also optimized the frame rate, raising FPS from 15-20 to a consistent 60.
 
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-trivia.jpg){: .w-50 .right}

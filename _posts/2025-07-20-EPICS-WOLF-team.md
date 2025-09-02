@@ -9,7 +9,7 @@ image:
 
 ## Overview
 
-EPICS, or Engineering Projects In Community Service, is an organization at Purdue University in which teams of students partner with local and global community organizations to address human, community, and environmental needs. My team worked with [Wolf Park](https://visitwolfpark.org/), a local wildlife sanctuary for wolves, foxes, bison, and more.
+[EPICS](https://engineering.purdue.edu/EPICS), or Engineering Projects In Community Service, is an organization at Purdue University in which teams of students partner with local and global community organizations to address human, community, and environmental needs. My team worked with [Wolf Park](https://visitwolfpark.org/), a local wildlife sanctuary for wolves, foxes, bison, and more.
 Our task was to develop an interactive video game for their education center that met the following specifications:
 
 - Designed to educate users on wolf behavior in the wild
