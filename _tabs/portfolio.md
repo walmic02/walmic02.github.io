@@ -27,6 +27,7 @@ In this project, we developed an educational and child oriented video game desig
 - Delivered bi-semesterly presentations to update investors and stakeholders on progress
 
 
+
 The goal of this project was simple: Wolf Park was looking for a way to enhance their education center and appeal to young children while staying true to their mission of educating future generations and inspiring them to protect the natural world. We worked alongside the park to ensure that every aspect of the game aligned with their vision. The park administration were very pleased with our delivered product; it was fun and engaging while also providing an enriching educational experience and remaining accessable for many kinds of children. Our contribution to their education center will allow them to expand their reach and promote the park's mission.
 
 **Utilized Python and GitHub to collaboratively develop large scale code architecture.**
