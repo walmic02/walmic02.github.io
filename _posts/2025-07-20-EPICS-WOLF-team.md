@@ -3,6 +3,8 @@ layout: post
 title: Educational Game Design – EPICS WOLF Team (Purdue University)
 description: Student-led community service based engineering team
 date: 2025-07-20 15:46 -0400
+categories: [Projects]
+tags: [team, python]
 image:
   path: assets/posts/EPICS-WOLF-team/EPICS-team-photo.jpg
 ---
