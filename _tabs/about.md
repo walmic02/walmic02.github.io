@@ -10,12 +10,6 @@ Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm
 
 ---
 
-## Current Work
-
-This summer, I'm currently part of a research team at Purdue, working with coding, control systems, simulations, and more. I'm also exploring personal projects involving Python/C++, controls, simulations, and more; I'm particularly interested by how linear algebra and differential equations can be applied in engineering.
-
----
-
 ## Areas of Interest
 
 - Control systems 

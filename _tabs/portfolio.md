@@ -3,10 +3,22 @@ icon: fas fa-book-open
 order: 1
 ---
 
-## Strengthening American Infrastructure - Research (Bowen Laboratory, Purdue University)
-##### *Undergraduate Research Assistant, June 2025 – Present*
+## Strengthening American Infrastructure -- Research (Bowen Laboratory, Purdue University)
+##### *Undergraduate Research Assistant, June – August 2025*
 
-*picture goes here*
+*picture goes here?*
+
+I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [IISL](https://engineering.purdue.edu/IISL/) at Bowen Laboratory at Purdue University. I assisted in 
+
+![Desktop View](assets/posts/SAI-R/specimen-close.jpg){: .w-50 .right}
+
+- Developed a MATLAB application for presenting displacement data, notes, and photos from tests, and optimized it for reuse with future test data.
+- Conducted extensive data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy. Ran material component simulations and helped debug the existing simulation program.
+- Assisted in instrumentation setup and data collection to collect precise and thorough test data during large-scale structural testing.
+- Created comprehensive documentation of post-test damage on concrete specimen to accurately assess results of testing and analyze material failure.
+
+The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs); this was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. 
+
 
 [read full write-up here](/posts/SAI-R-project/)
 
