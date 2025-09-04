@@ -10,7 +10,7 @@ order: 1
 
 I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [IISL](https://engineering.purdue.edu/IISL/) at Bowen Laboratory at Purdue University. I assisted in 
 
-![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-50 .right}
+![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
 
 - Developed a MATLAB application for presenting displacement data, notes, and photos from tests, and optimized it for reuse with future test data.
 - Conducted extensive data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy. Ran material component simulations and helped debug the existing simulation program.
