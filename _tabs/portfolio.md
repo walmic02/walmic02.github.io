@@ -6,7 +6,6 @@ order: 1
 ## Strengthening American Infrastructure -- Research (Bowen Laboratory, Purdue University)
 ##### *Undergraduate Research Assistant, June – August 2025*
 
-*picture goes here?*
 
 I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University.
 
@@ -17,7 +16,7 @@ I worked as a research assistant in the SAI-R (Strengthening American Infrastruc
 - Assisted in instrumentation setup and data collection to collect precise and thorough test data during large-scale structural testing.
 - Created comprehensive documentation of post-test damage on concrete specimen to accurately assess results of testing and analyze material failure.
 
-![Desktop View](assets/posts/SAI-R-project/app-window-1.jpg){: .w-25 .right}
+![Desktop View](assets/posts/SAI-R-project/app-window-1.png){: .w-25 .right}
 
 The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs); this was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. 
 
