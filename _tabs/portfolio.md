@@ -9,14 +9,14 @@ order: 1
 
 I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University.
 
-![Desktop View](assets/posts/SAI-R-project/app-window-1.png){: .w-50 .right}
+![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
 
 - Developed a MATLAB application for presenting displacement data, notes, and photos from tests, and optimized it for reuse with future test data.
 - Conducted extensive data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy. Ran material component simulations and helped debug the existing simulation program.
 - Assisted in instrumentation setup and data collection to collect precise and thorough test data during large-scale structural testing.
 - Created comprehensive documentation of post-test damage on concrete specimen to accurately assess results of testing and analyze material failure.
 
-![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .left}
+![Desktop View](assets/posts/SAI-R-project/app-window-1.png){: .w-50 }
 
 The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs); this was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. 
 
@@ -37,7 +37,7 @@ In this project, we developed an educational and child oriented video game desig
 - Added fullscreen capability for optimal gameplay
 - Implemented many QoL changes such as transitions between levels, sound implementation, and an objective display box
 
-![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-world.jpg){: .w-25 .left}
+![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-world.jpg){: .w-50 .left}
 
 The goal of this project was simple: Wolf Park was looking for a way to enhance their education center and appeal to young children while staying true to their mission of educating future generations and inspiring them to protect the natural world. We worked alongside the park to ensure that every aspect of the game aligned with their vision. The park administration were very pleased with our delivered product; it was fun and engaging while also providing an enriching educational experience and remaining accessable for many kinds of children. Our contribution to their education center will allow them to expand their reach and promote the park's mission.
 
