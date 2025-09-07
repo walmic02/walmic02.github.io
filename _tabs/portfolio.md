@@ -3,10 +3,10 @@ icon: fas fa-book-open
 order: 1
 ---
 
-## Strengthening American Infrastructure -- Research (Bowen Laboratory, Purdue University)
-##### *Undergraduate Research Assistant, June – August 2025*
+# Strengthening American Infrastructure -- Research (Bowen Laboratory, Purdue University)
+#### *Undergraduate Research Assistant, June – August 2025*
 
-
+\
 This past summer (Summer 2025), I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University. There, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
 
 ![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
@@ -17,17 +17,19 @@ This past summer (Summer 2025), I worked as a research assistant in the SAI-R (S
 - Created comprehensive documentation of post-test damage on concrete specimen
 
 
-Maybe here I have a few sentences about the MATLAB app (pictured below) I developed, and some stuff about how I optimized it for reuse and how I leared thats important. Again, maybe here I have a few sentences about the MATLAB app I developed, and some stuff about how I optimized it for reuse and how I leared thats important. The caption might not be nessecary since it doesn't add anything tbh.
+One of my key projects at the lab was designing and developing a presentation tool that consolidated notes, photos, and displacement data into a single, user-friendly format. Tests sometimes lasted over 10 hours and generated a large volume of information; concisely and effectively communicating this data to others was a significant challenge.
+
+The PI's two main requirements for the tool were ease of use and reusability; it needed to be simple to present and easy for future researchers to use with tests. To accomplish this, I utilized **MATLAB App Designer** to design an application that streamlined data presentation by processing each test case only once and storing the processed data for future presentations. I designed the UI (pictured below) to feature a slider to navigate data over time and a dropdown menu to easily switch between tests. 
 
 ![Desktop View](assets/posts/SAI-R-project/app-window-1.png){: .w-75 }
 _The app featured an interactive slider to easily view photos, notes, and data from any point during the test._
 
 The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs); this was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Bowen Laboratory at Purdue University is a state of the art lab for large scale structural testing. 
 
-\
+
 ---
-## Educational Game Design – EPICS WOLF Team (Purdue University)
-##### *Team Member, Aug 2024 – May 2025*
+# Educational Game Design – EPICS WOLF Team (Purdue University)
+#### *Team Member, Aug 2024 – May 2025*
 
 ![Desktop View](assets/posts/EPICS-WOLF-team/EPICS-team-photo-small.jpg){: .w-75}
 
@@ -42,10 +44,12 @@ In this project, we developed an educational and child oriented video game desig
 - Implemented many QoL changes such as transitions between levels, sound implementation, and an objective display box
 
 
+The goal of this project was simple: Wolf Park was looking for a way to enhance their education center and appeal to young children while staying true to their mission of educating future generations and inspiring them to protect the natural world. We worked alongside the park to ensure that every aspect of the game aligned with their vision. The park administration were very pleased with our delivered product; it was fun and engaging while also providing an enriching educational experience and remaining accessable for many kinds of children. Our contribution to their education center will allow them to expand their reach and promote the park's mission.
+
+
 ![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-world.jpg){: .w-50 }
 _An in-game screenshot from the first level._
 
-The goal of this project was simple: Wolf Park was looking for a way to enhance their education center and appeal to young children while staying true to their mission of educating future generations and inspiring them to protect the natural world. We worked alongside the park to ensure that every aspect of the game aligned with their vision. The park administration were very pleased with our delivered product; it was fun and engaging while also providing an enriching educational experience and remaining accessable for many kinds of children. Our contribution to their education center will allow them to expand their reach and promote the park's mission.
 
 **Utilized Python and GitHub to collaboratively develop large scale code architecture.**
 
