@@ -7,21 +7,22 @@ order: 1
 ##### *Undergraduate Research Assistant, June – August 2025*
 
 
-I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University.
+This past summer (Summer 2025), I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University. There, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
 
 ![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
 
-- Developed a MATLAB application for presenting displacement data, notes, and photos from tests, and optimized it for reuse with future test data.
-- Conducted extensive data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy. Ran material component simulations and helped debug the existing simulation program.
-- Assisted in instrumentation setup and data collection to collect precise and thorough test data during large-scale structural testing.
-- Created comprehensive documentation of post-test damage on concrete specimen to accurately assess results of testing and analyze material failure.
+- Developed a MATLAB application for presenting displacement data, notes, and photos from tests (picture and details below)
+- Conducted data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy, and ran material component simulations and helped debug the existing simulation program
+- Assisted in instrumentation setup and data collection during testing
+- Created comprehensive documentation of post-test damage on concrete specimen
+
 
 Maybe here I have a few sentences about the MATLAB app (pictured below) I developed, and some stuff about how I optimized it for reuse and how I leared thats important. Again, maybe here I have a few sentences about the MATLAB app I developed, and some stuff about how I optimized it for reuse and how I leared thats important. The caption might not be nessecary since it doesn't add anything tbh.
 
 ![Desktop View](assets/posts/SAI-R-project/app-window-1.png){: .w-50 }
 _The app featured an interactive slider to easily view photos, notes, and data from any point during the test._
 
-The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs); this was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. 
+The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs); this was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Bowen Laboratory at Purdue University is a state of the art lab for large scale structural testing. 
 
 
 ---
@@ -40,7 +41,7 @@ In this project, we developed an educational and child oriented video game desig
 - Added fullscreen capability for optimal gameplay
 - Implemented many QoL changes such as transitions between levels, sound implementation, and an objective display box
 
-/
+
 ![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-world.jpg){: .w-50 }
 
 
