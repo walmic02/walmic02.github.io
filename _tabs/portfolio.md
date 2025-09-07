@@ -12,12 +12,10 @@ This past summer (Summer 2025), I worked as a research assistant in the SAI-R (S
 ![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
 
 As a part of the lab, I:
-<ul style="margin-top: 0;">
-  <li>Developed a MATLAB application for presenting displacement data, notes, and photos from tests (see details below)</li>
-  <li>Conducted data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy, and ran material component simulations and helped debug the existing simulation program</li>
-  <li>Assisted in instrumentation setup and data collection during large-scale structural testing</li>
-  <li>Created comprehensive documentation of post-test damage on concrete specimen</li>
-</ul>
+- Developed a MATLAB application for presenting displacement data, notes, and photos from tests (see details below)
+- Conducted data collection from academic dissertations to tune a finite element analysis (FEA) model in OpenSeesPy, and ran material component simulations and helped debug the existing simulation program
+- Assisted in instrumentation setup and data collection during large-scale structural testing
+- Created comprehensive documentation of post-test damage on concrete specimen
 
 One of my key projects at the lab was designing and developing a presentation tool that consolidated notes, photos, and displacement data into a single, user-friendly format. Tests sometimes lasted over 10 hours and generated a large volume of information; concisely and effectively presenting this data to others was a significant challenge.
 
