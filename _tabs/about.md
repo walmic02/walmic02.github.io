@@ -6,7 +6,7 @@ order: 2
 toc: true   #this also dont work
 ---
 
-Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm currently exploring the vast scope of Mechanical Engineering, but I'm particularly interested by how physics and mathmatics blend into engineering.
+Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm passionite about pushing the limits of my field and myself, and love working with other people. I enjoy working in research groups as well as conducting personal projects.
 
 ---
 
