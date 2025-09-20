@@ -26,5 +26,3 @@ For me, engineering is all about pushing boundaries - finding out what I'm capab
 Outside of engineering, I play piano in the Purdue Jazz Band and enjoy going on trips with the Purdue Outing Club.
 
 ### Have any questions? Reach out at [wall58@purdue.edu](mailto:wall58@purdue.edu)! I'd love to hear from you.
-
-**[View my resume here](/resume)**
