@@ -3,7 +3,7 @@ icon: fas fa-book-open
 order: 1
 ---
 
-# a Desk Organizer Product Design
+# Desk Organizer Product Design
 #### *ME 26400: Intro to Manufacturing and Design, Fall 2025*
 
 *final product picture here*
