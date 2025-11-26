@@ -3,6 +3,30 @@ icon: fas fa-book-open
 order: 1
 ---
 
+# Designing and Manufacturing a Desk Organizer Product
+#### *ME 26400: Intro to Manufacturing and Design, Fall 2025*
+
+*final product picture here*
+
+Over the course of the semester, my ME 264 team and I created a desk organizer product. It features a pencil holder, electronic clock/timer with hidden battery storage, hammer display, customized nametag, and various aspects of Purdue Pride. As part of the team I was responsible for the Computer-Aided Design and Manufacturing (CAD and CAM). Our product showcases the design and manufacturing skills gained from ME 26400: Intro to Manufacturing and Design.
+
+This project provided an opportunity to employ design and manufacturing skills in a team environment with constraints. The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Through the project, we honed our design and teamwork skills, particularly designing within manufacturing and material constraints. 
+
+![Desktop View](assets/posts/264-desk-organizer/TLA_EXP_BOM.jpg){: .w-25 .right}
+_Exploded engineering drawing with Bill of Materials._
+
+Through our project, I:
+- Manufactured CNC and laser cut parts
+- Drafted engineering drawings with GD&T
+- Created a final report and presentation
+
+*notes: make previous part just learning, move motivation/project specific details to here*
+
+Techical Details:
+
+CNC Router and *both* Laser Cutter details, SolidWorks for CAD & Fusion 360 for CAM. Perhaps timeline details?
+
+
 # Strengthening American Infrastructure -- Research (Bowen Laboratory, Purdue University)
 #### *Undergraduate Research Assistant, June – August 2025*
 
@@ -47,7 +71,7 @@ In this project, we developed an educational and child oriented video game desig
 The goal of this project was simple: Wolf Park was looking for a way to enhance their education center and appeal to young children while staying true to their mission of educating future generations and inspiring them to protect the natural world. We worked alongside the park to ensure that every aspect of the game aligned with their vision. The park administration were very pleased with our delivered product; it was fun and engaging while also providing an enriching educational experience and remaining accessable for many kinds of children. Our contribution to their education center will allow them to expand their reach and promote the park's mission.
 
 
-![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-world.jpg){: .w-50 }
+![Desktop View](assets/posts/EPICS-WOLF-team/wolf-game-world.jpg){: .w-75 }
 _An in-game screenshot from the first level._
 
 
