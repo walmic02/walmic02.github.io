@@ -12,12 +12,11 @@ Over the course of the semester, my ME 26400 team and I created a desk organizer
 
 This project provided an opportunity to employ design and manufacturing skills in a team environment with constraints. The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Through the project, we honed our design and teamwork skills, particularly designing within manufacturing and material constraints. 
 
-![Desktop View](assets/posts/264-desk-organizer/TLA_EXP_BOM.jpg){: .w-25 .right}
-_Exploded engineering drawing with Bill of Materials._
+![Desktop View](assets/posts/264-desk-organizer/TLA_EXP_BOM.jpg){: .w-50 .right}
 
-Through our project, I:
 - Manufactured CNC and laser cut parts
 - Drafted engineering drawings with GD&T
+- Designed within manufacturing and material constraints
 - Created a final report and presentation
 
 *notes: make previous part just learning, move motivation/project specific details to here*
