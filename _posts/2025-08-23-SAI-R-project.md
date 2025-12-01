@@ -1,10 +1,12 @@
 ---
 layout: post
-title: Strengthening American Infrastructure - Research (Bowen Laboratory, Purdue University)
-description: Coming soon!
+title: Strengthening American Infrastructure - Research 
+description: Structural Research Assistant at Bowen Laboratory, Purdue University
 date: 2025-08-23 09:46 -0400
 categories: [Research]
 tags: [team, MATLAB, python]
+image:
+  path: assets/posts/SAI-R-project/specimen-computer.jpg
 ---
 
 Over the summer of 2025, I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University. The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs), and was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Throughout my work, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
