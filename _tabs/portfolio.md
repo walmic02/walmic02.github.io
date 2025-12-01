@@ -38,7 +38,7 @@ Utilized SolidWorks for CAD, Fusion 360 for CAM.
 #### *Undergraduate Research Assistant, June – August 2025*
 
 
-Over the summer of 2025, I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University. The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs), and was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Throughout my work, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
+Over the summer of 2025, I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) (IISL) in Bowen Laboratory at Purdue University. The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs), and was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Throughout my work, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
 
 ![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
 
