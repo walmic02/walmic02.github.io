@@ -10,6 +10,8 @@ order: 1
 
 Over the course of the semester, my ME 26400 team and I created a desk organizer product. It features a pencil holder, electronic clock/timer with hidden battery storage, hammer display, customized nametag, and various aspects of Purdue Pride. As part of the team I was responsible for the Computer-Aided Design and Manufacturing (CAD and CAM). Our product showcases the design and manufacturing skills gained from [ME 26400: Intro to Manufacturing and Design](https://engineering.purdue.edu/ME/Undergraduate/Files/Courses/me264.pdf).
 
+![Desktop View](assets/posts/264-desk-organizer/TLA_EXP_BOM.jpg){: .w-50 .right}
+
 Designing this product in a 3-person team provided a valuable opportunity to strengthen my design skills in a team environment. As part of the team, I:
 - Designed within manufacturing and material constraints
 - Drafted engineering drawings with GD&T
@@ -17,14 +19,12 @@ Designing this product in a 3-person team provided a valuable opportunity to str
 - Created a final report and presentation
 I was responsible for drafting all CAD models and creating CAM programs for CNC machining, as well as creating engineering drawings and writing reports. 
 
-![Desktop View](assets/posts/264-desk-organizer/TLA_EXP_BOM.jpg){: .w-50 .right}
-
- The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Over the course of 7 weeks, we went through the engineering design process from conceptual design to manufacturing and assembly. 
- 
 ![Desktop View](assets/posts/264-desk-organizer/final_hand_sketch.png){: .w-50 .left}
 
-![Desktop View](assets/posts/264-desk-organizer/final_hand_sketch.png){: .w-75 }
-_ShopSabre Pro CNC Router_
+The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Over the course of 7 weeks, we went through the engineering design process from conceptual design to manufacturing and assembly. 
+
+![Desktop View](assets/posts/264-desk-organizer/cnc_temp.png){: .w-75 }
+_ShopSabre Pro CNC Router (TEMP IMAGE)_
 
 Tools Used:
 - ShopSabre Pro CNC Router
