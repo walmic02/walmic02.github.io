@@ -3,34 +3,42 @@ icon: fas fa-book-open
 order: 1
 ---
 
-# Desk Organizer Product Design
+# Desk Organizer Design Project
 #### *ME 26400: Intro to Manufacturing and Design, Fall 2025*
 
 *final product picture here*
 
 Over the course of the semester, my ME 26400 team and I created a desk organizer product. It features a pencil holder, electronic clock/timer with hidden battery storage, hammer display, customized nametag, and various aspects of Purdue Pride. As part of the team I was responsible for the Computer-Aided Design and Manufacturing (CAD and CAM). Our product showcases the design and manufacturing skills gained from [ME 26400: Intro to Manufacturing and Design](https://engineering.purdue.edu/ME/Undergraduate/Files/Courses/me264.pdf).
 
-This project provided an opportunity to employ design and manufacturing skills in a team environment with constraints. The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Through the project, we honed our design and teamwork skills, particularly designing within manufacturing and material constraints. 
+Designing this product in a 3-person team provided a valuable opportunity to strengthen my design skills in a team environment. As part of the team, I:
+- Designed within manufacturing and material constraints
+- Drafted engineering drawings with GD&T
+- Manufactured CNC and laser cut parts
+- Created a final report and presentation
+I was responsible for drafting all CAD models and creating CAM programs for CNC machining, as well as creating engineering drawings and writing reports. 
 
 ![Desktop View](assets/posts/264-desk-organizer/TLA_EXP_BOM.jpg){: .w-50 .right}
 
-- Manufactured CNC and laser cut parts
-- Drafted engineering drawings with GD&T
-- Designed within manufacturing and material constraints
-- Created a final report and presentation
+ The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Over the course of 7 weeks, we went through the engineering design process from conceptual design to manufacturing and assembly. 
+ 
+![Desktop View](assets/posts/264-desk-organizer/final_hand_sketch.png){: .w-50 .left}
 
-*notes: make previous part just learning, move motivation/project specific details to here*
+![Desktop View](assets/posts/264-desk-organizer/final_hand_sketch.png){: .w-75 }
+_ShopSabre Pro CNC Router_
 
-Techical Details:
+Tools Used:
+- ShopSabre Pro CNC Router
+- Laser Cutter #1
+- Laser Cutter #2
+Utilized SolidWorks for CAD, Fusion 360 for CAM.
 
-CNC Router and *both* Laser Cutter details, SolidWorks for CAD & Fusion 360 for CAM. Perhaps timeline details?
 
 
 # Strengthening American Infrastructure -- Research (Bowen Laboratory, Purdue University)
 #### *Undergraduate Research Assistant, June – August 2025*
 
 
-This past summer (Summer 2025), I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University. The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs), and was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Throughout my work, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
+Over the summer of 2025, I worked as a research assistant in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) in Bowen Laboratory at Purdue University. The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs), and was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Throughout my work, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
 
 ![Desktop View](assets/posts/SAI-R-project/specimen-close.jpg){: .w-25 .right}
 
