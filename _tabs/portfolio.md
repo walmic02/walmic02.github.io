@@ -23,7 +23,7 @@ I was responsible for drafting all CAD models and creating CAM programs for CNC 
 
 The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Over the course of 7 weeks, we went through the engineering design process from conceptual design to manufacturing and assembly. 
 
-![Desktop View](assets/posts/264-desk-organizer/cnc_temp.png){: .w-75 }
+![Desktop View](assets/posts/264-desk-organizer/cnc_temp.jpg){: .w-75 }
 _ShopSabre Pro CNC Router (TEMP IMAGE)_
 
 Tools Used:
