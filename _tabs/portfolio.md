@@ -6,7 +6,7 @@ order: 1
 # Desk Organizer Design Project
 #### *ME 26400: Intro to Manufacturing and Design, Fall 2025*
 
-*final product picture here*
+![Desktop View](assets/posts/264-desk-organizer/final_pic_1.jpg){: .w-75 }
 
 Over the course of the semester, my ME 26400 team and I created a desk organizer product. It features a pencil holder, electronic clock/timer with hidden battery storage, hammer display, customized nametag, and various aspects of Purdue Pride. As part of the team I was responsible for the Computer-Aided Design and Manufacturing (CAD and CAM). Our product showcases the design and manufacturing skills gained from [ME 26400: Intro to Manufacturing and Design](https://engineering.purdue.edu/ME/Undergraduate/Files/Courses/me264.pdf).
 
