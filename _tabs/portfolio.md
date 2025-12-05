@@ -5,7 +5,6 @@ order: 1
 
 Hi! I'm Michael Wall, a Mechanical Engineering undergrad at Purdue University. Here you can find a selection of engineering projects from my time at Purdue. Feel free to reach me via email (wall58@purdue.edu) with any questions.
 
-
 # Desk Organizer Design Project
 #### *ME 26400: Intro to Manufacturing and Design, Fall 2025*
 
@@ -17,7 +16,6 @@ Over the course of the semester, my ME 26400 team and I created a desk organizer
 
 Designing this product in a 3-person team provided a valuable opportunity to strengthen my design skills in a team environment. As part of the team, I:
 
-
 - Designed within manufacturing and material constraints
 - Drafted engineering drawings with GD&T
 - Manufactured CNC and laser cut parts
@@ -27,12 +25,12 @@ I was responsible for drafting all CAD models and creating CAM programs for CNC 
 The final product had to provide desk organization features, display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain, and incorporate Purdue Pride. We were provided a very limited amount of materials and available manufacturing processes. Over the course of 7 weeks, we went through the engineering design process from conceptual design to manufacturing and assembly. 
 
 ![Desktop View](assets/posts/264-desk-organizer/cnc_full.jpg){: .w-75 }
-_ShopSabre Pro CNC Router (TEMP IMAGE)_
+_ShopSabre Pro CNC Router in the Bechtel Innovation Design Center at Purdue_
 
 Tools Used:
 - ShopSabre Pro CNC Router
-- Laser Cutter #1
-- Laser Cutter #2
+- CO2 Laser Cutter for plywood and acrylic
+- Oxygen Laser Cutter for sheet metal
 
 Utilized SolidWorks for CAD, Fusion 360 for CAM.
 
