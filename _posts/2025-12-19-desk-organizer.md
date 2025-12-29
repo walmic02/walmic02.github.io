@@ -21,6 +21,9 @@ Over the course of the Fall 2025 semester, I designed, manufactured, and assembl
 - Created CAM programs in Fusion 360 for CNC router
 - Created a final report and presentation
 
+![Desktop View](assets/posts/desk-organizer/solidworks_render.png){: .w-75 }
+_Final design rendered in SolidWorks._
+
 
 The final product requirements included: provide desk organization features; display the projects made in ME 26400 such as the hammer, clock, nametag, and engineering fountain; and incorporate Purdue Pride. My team and I were provided a very limited amount of materials and available manufacturing processes. Over the course of 6 weeks, we went through the engineering design process from conceptual design to manufacturing and assembly. 
 
