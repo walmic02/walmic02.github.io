@@ -6,16 +6,15 @@ order: 2
 toc: true   #this also dont work
 ---
 
-Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm passionite about pushing the limits of my field and myself, and love working with other people. I enjoy working in research groups as well as conducting personal projects.
+Hi! I'm Michael Wall, a Mechanical Engineering student at Purdue University. I'm passionite about pushing the limits of my field and myself, and love working with other people. I enjoy working in Extracurricular Engineering teams and research groups, as well as conducting personal projects.
 
 ---
 
 ## Areas of Interest
-
-- Control systems 
-- Robotics and simulations
-- Applied mathmatics and physics
-- R&D
+- Autonomous Systems
+- Robotics
+- Aerospace
+- Control Theory
 
 ---
 
