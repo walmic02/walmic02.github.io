@@ -3,7 +3,7 @@ icon: fas fa-book-open
 order: 1
 ---
 
-Hi! I'm Michael Wall, a Mechanical Engineering undergrad at Purdue University. Here you can find a selection of engineering projects from my time at Purdue. Feel free to reach me via email (wall58@purdue.edu) with any questions.
+Hi! I'm Michael Wall, an Electrical Engineering undergrad at Purdue University. Here you can find a selection of engineering projects from my time at Purdue. Feel free to reach me via email (wall58@purdue.edu) with any questions.
 
 # Desk Organizer Design Project
 #### *ME 26400: Intro to Manufacturing and Design, Fall 2025*
