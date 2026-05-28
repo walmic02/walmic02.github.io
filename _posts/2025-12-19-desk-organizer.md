@@ -3,7 +3,7 @@ layout: post
 title: Desk Organizer Design Project
 description: ME 26400 Design & Manufacturing Final Project
 date: 2025-12-19 12:00 -0400
-categories: [Projects]
+categories: [Projects,ME]
 tags: [design, manufacturing, team]
 image:
   path: assets/posts/desk-organizer/final_pic_4.jpg

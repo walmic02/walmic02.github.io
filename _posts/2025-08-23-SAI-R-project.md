@@ -3,7 +3,7 @@ layout: post
 title: Engineering Research Intern — Strengthening American Infrastructure Research 
 description: Structural Research Assistant at Bowen Laboratory, Purdue University
 date: 2025-08-23 09:46 -0400
-categories: [Research]
+categories: [Research, ME]
 tags: [team, MATLAB, python]
 image:
   path: assets/posts/SAI-R-project/specimen-computer.jpg
