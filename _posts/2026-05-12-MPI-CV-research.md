@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: post
 title: Synthetic Data Generation Pipeline for Training Computer Vision Magnetic Particle Inspection (MPI) Detection Systems
