@@ -8,11 +8,8 @@
 {%- endif -%}
 ';
 
+@use 'abstract' as *;
+
 .content a.popup + em, .embed-video + em, .embed-audio + em {
   font-size: 1.0rem;
 }
-
-// #sidebar {
-//     background: #182800;
-//     border-right: 1px solid #be1212;
-// }

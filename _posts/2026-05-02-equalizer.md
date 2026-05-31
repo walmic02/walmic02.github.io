@@ -2,6 +2,7 @@
 layout: post
 title: Audio Equalizer Circuit Design
 description: Adjustable audio equalizer circuit design project with 2nd order Sallen-Key filter topology.
+abstract: Designed and built an analog 3-band audio equalizer using Sallen-Key active filters to independently control bass, mid, and treble frequencies. The system achieved excellent sound quality with less than 7.7 mV RMS ripple and output power exceeding 400 mW specifications.
 date: 2026-05-02 12:00 -0400
 categories: [Projects, ECE]
 tags: [circuit design, team]
