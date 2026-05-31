@@ -1,0 +1,39 @@
+/* Abstract toggle styling */
+
+.card-wrapper {
+  position: relative;
+}
+
+.abstract-section {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.abstract-content {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 1;
+  transition: max-height 0.3s ease-out;
+  padding-left: 0;
+  position: relative;
+  z-index: 10;
+
+  p {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #4a8f5e;
+  }
+
+  &.visible {
+    opacity: 1;
+    max-height: 500px;
+  }
+}
+
+/* Expand abstract on card hover */
+.card-wrapper:hover .abstract-content {
+  transition: max-height 0.5s ease-in-out;
+  opacity: 1;
+  max-height: 500px;
+}
