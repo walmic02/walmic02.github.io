@@ -1,3 +1,4 @@
+```markdown
 ---
 layout: post
 title: Synthetic Data Generation Pipeline for Training Computer Vision Magnetic Particle Inspection (MPI) Detection Systems
@@ -9,7 +10,6 @@ math: true
 image:
   path: assets/posts/MPI-CV-research/temp-cover-image.png
 ---
-
 
 ## Introduction
 
@@ -29,7 +29,7 @@ Blender (v5.1), a 3D rendering software, is used to simulate the virtual inspect
 * Simple customization (different parts, visual tweaks, etc.)
 
 <div style="float:left; width:400px; margin-left:-15px; margin-right:20px; margin-bottom:10px;">
-  <img src="assets/posts/MPI-CV-research/Figures/flowchart_v2.png" width="390">
+  <img src="assets/posts/MPI-CV-research/Figures/flowchart_v2.png" width="390" alt="Pipeline flowchart">
   <p style="text-align: center; margin-top: 2px; font-size: 17px; color: #6d6c6c;">
     Figure 1: Flowchart for Python script.
   </p>
@@ -55,6 +55,7 @@ Generation of the indication was conducted first. Noise nodes in the material tr
 <div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; max-width:550px; margin:0 auto;">
   <div style="flex:1; text-align:center;">
     <img src="assets/posts/MPI-CV-research/Figures/renders/voronoi.png"
+         alt="Voronoi indication example"
          style="max-height:280px; width:auto; max-width:100%; display:block; margin:auto;">
     <div style="margin-top:4px; font-size:16px; font-weight:600; color:#6d6c6c;">
       (a)
@@ -62,119 +63,84 @@ Generation of the indication was conducted first. Noise nodes in the material tr
   </div>
   <div style="flex:1; text-align:center;">
     <img src="assets/posts/MPI-CV-research/Figures/renders/noise.png"
+         alt="Noise texture indication example"
          style="max-height:280px; width:auto; max-width:100%; display:block; margin:auto;">
     <div style="margin-top:4px; font-size:16px; font-weight:600; color:#6d6c6c;">
       (b)
     </div>
   </div>
 </div>
-<p style="text-align:center; margin-top:6px; font-size:17px; color:#6d6c6c;">
-Figure 2: Comparison of (a) Voronoi and (b) Noise Texture Nodes for indication generation.
-</p>
 
 <div style="display: flex; gap: 16px; justify-content: center; align-items: flex-start; width: 100%; max-width: 600px; margin: 0 auto;">
 
   <div style="flex: 1;">
     <div style="display: grid; grid-template-columns: repeat(2,1fr); gap: 6px;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_4.png"
-           style="width:100%; display:block;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_6.png"
-           style="width:100%; display:block;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_7.png"
-           style="width:100%; display:block;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_13.png"
-           style="width:100%; display:block;">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_4.png" alt="Render without linear gradient">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_6.png" alt="Render without linear gradient">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_7.png" alt="Render without linear gradient">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/no_linear/render_13.png" alt="Render without linear gradient">
     </div>
-    <div style="text-align:center; font-size:16px; font-weight:600; margin-top:4px; color:#6d6c6c;">(a)</div>
   </div>
 
   <div style="flex: 1;">
     <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:6px;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_11.png"
-           style="width:100%; display:block;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_17.png"
-           style="width:100%; display:block;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_22.png"
-           style="width:100%; display:block;">
-      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_46.png"
-           style="width:100%; display:block;">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_11.png" alt="Render with linear gradient">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_17.png" alt="Render with linear gradient">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_22.png" alt="Render with linear gradient">
+      <img src="assets/posts/MPI-CV-research/Figures/renders/linear/render_46.png" alt="Render with linear gradient">
     </div>
-    <div style="text-align:center; font-size:16px; font-weight:600; margin-top:4px; color:#6d6c6c;">(b)</div>
   </div>
 </div>
-<p style="text-align: center; margin-top: 2px; font-size: 17px; color: #6d6c6c;">
-  Figure 3: Comparison of indication generation without linear gradient texture (a) and with linear gradient texture (b).
-</p>
-
-In order to create a realistic replica of a metal casting, the indication is combined with a background material which represents the metal surface. The metal material component has various parameters to make it appear realistic, which are all applied through a Principled BSDF shader node. First, the gray Base Color is created, with variations from a Noise Texture output through a Color Ramp causing slight variations in gray surface color. The Roughness value is also randomized with a Noise Texture to add surface reflectivity variation. The surface Normal is randomized with a Noise Texture output into a Bump node to give the surface a random surface texture variation. Finally, there is a Coat layer used to replicate the MPI fluid on the parts, adding some surface glare. All of the Noise Texture nodes are 4D noise nodes, which adds an extra parameter used to change the noise for each render; this gives each render a completely unique surface texture.
-
-The 3D Virtual Inspection Booth environment exists inside Blender, made up of three main components:
-
-1. 3D part model
-2. Camera/light object
-3. HDRI background
-
-The 3D part model can be any 3D model desired for rendering; in this case it is a simple, low-poly .stl file created in SOLIDWORKS, seen in Figure 4. The camera object is what is used by the renderer to capture an image, and the light object is bound to it so they move together; these can also be seen in Figure 4. The light is set to be a flourescent green similar to a UV light used in MPI testing. The HDRI (High Dynamic Range Imaging) background is a realistic 360 degree image used as the surrounding environment, providing realistic noise to the background and reflections on the part (Figure 5).
 
 <div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; max-width:800px; margin:0 auto;">
   <div style="flex:1; text-align:center;">
     <img src="assets/posts/MPI-CV-research/Figures/viewport_solid.png"
+         alt="Blender viewport object"
          style="width:auto; max-width:100%; display:block; margin:auto;">
-    <div style="margin-top:4px; font-size:16px; font-weight:600; color:#6d6c6c;">
-      (a)
-    </div>
   </div>
   <div style="flex:1; text-align:center;">
     <img src="assets/posts/MPI-CV-research/Figures/viewport_rendered.png"
+         alt="Rendered Blender object"
          style="width:auto; max-width:100%; display:block; margin:auto;">
-    <div style="margin-top:4px; font-size:16px; font-weight:600; color:#6d6c6c;">
-      (b)
-    </div>
   </div>
 </div>
-<p style="text-align:center; margin-top:6px; font-size:17px; color:#6d6c6c;">
-Figure 4: (a) The 3D object in the Blender 3D viewport. (b) The same 3D object with rendered textures enabled.
-</p>
 
 ![The HDRI used, sourced from Poly Haven](assets/posts/MPI-CV-research/Figures/industrial_pipe_and_valve_01_screenshot.png)
-*Figure 5: The HDRI used, sourced from Poly Haven [2]. Brightness was reduced significantly in renders.*
-
-In order to export two layers of the render simultaneously, Blender's Compositing was used. There, the render is exported as both the composite render and the emissive layer, the former is the complete render and the latter contains only the indication and is used for labeling.
 
 ## Discussion
+
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="text-align: center; width: 25%; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_1.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(a)</div></td>
-    <td style="text-align: center; width: 25%; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_2.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(b)</div></td>
-    <td style="text-align: center; width: 25%; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_3.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(c)</div></td>
-    <td style="text-align: center; width: 25%; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_4.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(d)</div></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_1.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_2.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_3.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_1_4.png" alt="Generated render example"></td>
   </tr>
   <tr>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_2_1.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(e)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_1.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(f)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_2.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(g)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_3.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(h)</div></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_2_1.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_1.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_2.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_3.png" alt="Generated render example"></td>
   </tr>
   <tr>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_4.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(i)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_1.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(j)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_2.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(k)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_3.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(l)</div></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_3_4.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_1.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_2.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_3.png" alt="Generated render example"></td>
   </tr>
   <tr>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_4.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(m)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_5.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(n)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_5_1.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(o)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_1.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(p)</div></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_4.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_4_5.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_5_1.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_1.png" alt="Generated render example"></td>
   </tr>
   <tr>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_2_alt.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(q)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_2.png" width="85%"/><div style="font-size: 15px; font-weight: 600">(r)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_3.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(s)</div></td>
-    <td style="text-align: center; padding: 8px;"><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_4.png" width="85%"/><div style="font-size: 15px; font-weight: 600;">(t)</div></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_2_alt.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_2.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_3.png" alt="Generated render example"></td>
+    <td><img src="assets/posts/MPI-CV-research/Figures/renders/gen_timeline/gen_6_4.png" alt="Generated render example"></td>
   </tr>
 </table>
-
 <p style="text-align: center; margin-top: 15px; font-size: 17px; color: #6d6c6c;">
   Figure 6: Chronological renders showing generation evolution.
 </p>
