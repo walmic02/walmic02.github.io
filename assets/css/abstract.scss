@@ -24,16 +24,32 @@ $accent-lighter: rgba(45, 106, 127, 0.15);
   margin: 0;
   padding: 0;
   background: $accent-light;
-  border-radius: 0.5rem;
   border: 1px solid $accent-lighter;
 }
 
 .abstract-content {
   p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-size: 1.05rem;
     line-height: 1.5;
     color: $accent-color;
+  }
+
+  .abstract-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: $accent-lighter;
+    color: $accent-color;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    border: 1px solid $accent-lighter;
   }
 
   &.visible {
