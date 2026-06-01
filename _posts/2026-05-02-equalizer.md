@@ -11,6 +11,8 @@ image:
   path: assets/posts/equalizer/final-circuit.png
 ---
 
+{% include abstract.html %}
+
 ## Introduction
 
 The objective of this project is to design and construct an analog audio equalizer. An audio equalizer is a system used to adjust the gain of specific frequency ranges, and allows the tuning and enhancement of audio quality. The project calls for three adjustable audio bands to control low, middle, and high frequencies, as well as overall volume control; the signal is filtered into individual frequency bands, and the channel and overall volumes are controlled using operational amplifiers. Additionally, the system uses a power amplifier to boost the signal to a higher output level to be used in speakers. The low frequencies are defined as <320 Hz, middle frequencies are 320-3200 Hz, and high frequencies are >3200 Hz. The combined equalizer output must be 100 mV$$_\text{RMS}$$ with all frequencies at maximum, and less than 15 mV$$_\text{RMS}$$ at minimum. Additionally, the power amplifier must be capable of outputting greater than 400 mW of power at maximum volume.

@@ -56,8 +56,8 @@ refactor: true
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
-    <article class="card-wrapper card">
-      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
+    <article class="card-wrapper">
+      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse card">
         {% assign card_body_col = '12' %}
 
         {% if post.image %}
@@ -108,14 +108,6 @@ refactor: true
               <p>{% include post-summary.html %}</p>
             </div>
 
-            {% if post.abstract %}
-              <div class="abstract-section" data-post-id="{{ forloop.index }}">
-                <div class="abstract-content hidden" id="abstract-{{ forloop.index }}">
-                  <p>{{ post.abstract }}</p>
-                </div>
-              </div>
-            {% endif %}
-
             <div class="post-meta flex-grow-1 d-flex align-items-end">
               <div class="me-auto">
                 <!-- posted date -->
@@ -146,6 +138,14 @@ refactor: true
           <!-- .card-body -->
         </div>
       </a>
+
+      {% if post.abstract %}
+        <div class="abstract-section" data-post-id="{{ forloop.index }}">
+          <div class="abstract-content" id="abstract-{{ forloop.index }}">
+            <p>{{ post.abstract }}</p>
+          </div>
+        </div>
+      {% endif %}
     </article>
   {% endfor %}
 </div>

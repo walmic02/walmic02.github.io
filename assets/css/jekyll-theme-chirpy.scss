@@ -8,7 +8,79 @@
 {%- endif -%}
 ';
 
-@use 'abstract' as *;
+/* Color Configuration - Accent color used throughout the site */
+$accent-color: #4a8fa6;
+$accent-light: rgba(45, 106, 127, 0.08);
+$accent-lighter: rgba(45, 106, 127, 0.15);
+
+/* Abstract toggle styling - HOMEPAGE */
+
+.card-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card highlight only on the link, not the abstract */
+.post-preview.card {
+  transition: all 0.2s ease-in-out;
+}
+
+.abstract-section {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  margin: 0;
+  padding: 0;
+  background: $accent-light;
+  border-radius: 0.5rem;
+  border: 1px solid $accent-lighter;
+}
+
+.abstract-content {
+  p {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: $accent-color;
+  }
+
+  &.visible {
+    opacity: 1;
+    max-height: 500px;
+  }
+}
+
+/* Expand abstract on card hover (only the card link gets hover, not abstract) */
+.post-preview:hover ~ .abstract-section {
+  opacity: 1;
+  max-height: 500px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Abstract styling - POST PAGE */
+
+.abstract-box {
+  padding: 1.25rem;
+  background: linear-gradient(135deg, $accent-light, rgba(45, 106, 127, 0.02));
+  border-left: 4px solid $accent-color;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+
+  h2 {
+    font-size: 1rem;
+    margin: 0 0 0.75rem 0;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 0.95rem;
+    margin: 0;
+    color: $accent-color;
+  }
+}
 
 .content a.popup + em, .embed-video + em, .embed-audio + em {
   font-size: 1.0rem;
