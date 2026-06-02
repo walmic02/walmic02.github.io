@@ -2,12 +2,14 @@
 layout: post
 title: Desk Organizer Design Project
 description: ME 26400 Design & Manufacturing Final Project
+abstract: Designed and manufactured a desk organizer project to meet strict design, manufacturing, and material constraints. Utilized CNC router, laser cutters, and woodworking tools. Used SOLIDWORKS for CAD and Fusion 360 for CAM.
 date: 2025-12-19 12:00 -0400
 categories: [Projects,ME]
-tags: [design, manufacturing, team]
+tags: [CAD, SOLIDWORKS, manufacturing, CNC, laser cutting]
 image:
   path: assets/posts/desk-organizer/final_pic_4.jpg
 ---
+{% include abstract.html %}
 
 Over the course of the Fall 2025 semester, I designed, manufactured, and assembled a desk organizer product. It features a pencil holder, electronic clock/timer with concealed battery storage, hammer display, customized nametag, and various aspects of Purdue Pride. I was responsible for the Computer-Aided Design (CAD) and Manufacturing. Our product showcases the design and manufacturing skills gained from [ME 26400: Intro to Manufacturing and Design](https://engineering.purdue.edu/ME/Undergraduate/Files/Courses/me264.pdf).
 

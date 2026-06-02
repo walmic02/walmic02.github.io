@@ -2,12 +2,14 @@
 layout: post
 title: Engineering Research Intern — Strengthening American Infrastructure Research 
 description: Structural Research Assistant at Bowen Laboratory, Purdue University
+abstract: Supported large-scale structural testing of and facilitated data collection, analysis, instrumentation, and test execution. Conducted literature survey to run OpenSeesPy FEA model and developed MATLAB application for data presentation.
 date: 2025-08-23 09:46 -0400
 categories: [Research, ME]
-tags: [team, MATLAB, python]
+tags: [research, MATLAB, Python, OpenSeesPy FEA, testing]
 image:
   path: assets/posts/SAI-R-project/specimen-computer.jpg
 ---
+{% include abstract.html %}
 
 Over the summer of 2025, I worked as a research assistant intern in the SAI-R (Strengthening American Infrastructure -- Research) project at the [Intelligent Infrastructure Systems Laboratory](https://engineering.purdue.edu/IISL/) (IISL) in Bowen Laboratory at Purdue University. The goal of this research project was to identify effective retrofit and repair strategies for nonductile reinforced concrete buildings (NDRCBs), and was achieved through experimental testing performed on large-scale reinforced concrete columns and hybrid simulations. Throughout my work, I gained experience in a broad range of engineering topics, such as MATLAB, finite element analysis, control systems.
 
