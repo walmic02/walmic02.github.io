@@ -45,8 +45,8 @@ The project must meet the following specifications with an input voltage of 320 
 
 The circuit was first designed and simulated in LTSpice:
 
-![Full equalizer schematic]({{ site.baseurl }}/assets/posts/equalizer/3_Procedure/schematic_full_labeled.png)
-*Figure 6: Schematic for the complete audio equalizer circuit, with labels for each part.*
+![Full equalizer schematic](/assets/posts/equalizer/3_Procedure/schematic_full_labeled.png)
+*Figure 1: Schematic for the complete audio equalizer circuit, with labels for each part.*
 
 The signal processing can be seen in the schematic: highs are filtered in the top row, mids in the middle, and lows in the lowest row. Each row contains the Sallen-Key filter for its respective frequency range, which is followed by a volume booster for each. The mids require an inverting amplifier after the two filter parts (low and high pass) to prevent them from destructively interfering with the other signals at the summing amplifier due to phase changes from the filters. Then the signals are combined with a summing amplifier, and then volume is controlled with a potentiometer set up as a voltage divider before feeding into the audio amplifier. Afterwards, there is some final filtering for increased audio quality before the signal reaches the output speaker.
 
@@ -80,22 +80,22 @@ To use the circuit, an input signal was provided via the 3.5 mm audio jack or a 
 
 ### Low-Pass Filter FRA
 
-![Low-pass filter frequency response]({{ site.baseurl }}/assets/posts/equalizer/4_Results/FRA_cutoff_low.png){: width="600" }
-*Figure 7: Frequency response analysis of the low-pass filter showing measured cutoff frequency.*
+![Low-pass filter frequency response](/assets/posts/equalizer/4_Results/FRA_cutoff_low.png){: width="600" }
+*Figure 2: Frequency response analysis of the low-pass filter showing measured cutoff frequency.*
 
 The low-pass filter had a target cutoff of 320 Hz and a calculated value of 341 Hz. The measured cutoff from the FRA was 375 Hz, which is a deviation of approximately 10% from the calculated value, and about 17% from the required value. The response shows the characteristic behavior of a 2nd-order Butterworth Sallen-Key topology, with a flat passband with low ripple up to the cutoff, followed by a very steep rolloff.
 
 ### Mid-Pass Filter FRA
 
-![Mid-pass filter frequency response]({{ site.baseurl }}/assets/posts/equalizer/4_Results/FRA_cutoff_mid.png){: width="600" }
-*Figure 8: Frequency response analysis of the mid-pass filter showing measured cutoff frequencies.*
+![Mid-pass filter frequency response](/assets/posts/equalizer/4_Results/FRA_cutoff_mid.png){: width="600" }
+*Figure 3: Frequency response analysis of the mid-pass filter showing measured cutoff frequencies.*
 
 The mid-pass filter had target cutoffs of 320 Hz and 3200 Hz, with calculated values of 341 Hz and 3410 Hz. The measured cutoffs were approximately 375 Hz and 3500 Hz, deviating by about 10% and 2% from the calculated values, and about 17% and 9% from the required values.
 
 ### High-Pass Filter FRA
 
-![High-pass filter frequency response]({{ site.baseurl }}/assets/posts/equalizer/4_Results/FRA_cutoff_high.png){: width="600" }
-*Figure 9: Frequency response analysis of the high-pass filter showing measured cutoff frequency.*
+![High-pass filter frequency response](/assets/posts/equalizer/4_Results/FRA_cutoff_high.png){: width="600" }
+*Figure 4: Frequency response analysis of the high-pass filter showing measured cutoff frequency.*
 
 The high-pass filter had a target cutoff of 3200 Hz. The measured cutoff was 3500 Hz, which is a deviation of approximately 2.6% from the calculated value and about 9% from the required value.
 
@@ -103,14 +103,14 @@ The high-pass filter had a target cutoff of 3200 Hz. The measured cutoff was 350
 
 ### Ripple Measurement
 
-![Ripple FRA]({{ site.baseurl }}/assets/posts/equalizer/4_Results/Vamp_ripple_FRA.png){: width="600" }
-*Figure 16: Frequency response analysis of the ripple across the 100 Hz to 10 kHz range.*
+![Ripple FRA](/assets/posts/equalizer/4_Results/Vamp_ripple_FRA.png){: width="600" }
+*Figure 5: Frequency response analysis of the ripple across the 100 Hz to 10 kHz range.*
 
-![Ripple at 100 Hz (lowest gain)]({{ site.baseurl }}/assets/posts/equalizer/4_Results/Vamp_max_100Hz.png){: width="600" }
-*Figure 17: Ripple measurement at 100Hz, the lowest gain response frequency.*
+![Ripple at 100 Hz (lowest gain)](/assets/posts/equalizer/4_Results/Vamp_max_100Hz.png){: width="600" }
+*Figure 6: Ripple measurement at 100Hz, the lowest gain response frequency.*
 
-![Ripple at 430 Hz (highest gain)]({{ site.baseurl }}/assets/posts/equalizer/4_Results/Vamp_ripple_430Hz.png){: width="600" }
-*Figure 18: Ripple measurement at 430 Hz, the highest gain response frequency.*
+![Ripple at 430 Hz (highest gain)](/assets/posts/equalizer/4_Results/Vamp_ripple_430Hz.png){: width="600" }
+*Figure 7: Ripple measurement at 430 Hz, the highest gain response frequency.*
 
 The FRA shows a sweeping response with peaks near the crossover frequencies between the low/high bands and the mid band. One anomaly is that the FRA shows 100 Hz with a slightly lower gain than 10 kHz, which is inconsistent with the direct oscilloscope measurements that showed the 10 kHz output 9 mV$$_\text{RMS}$$ lower.
 
@@ -142,7 +142,7 @@ This is well within the 15 mV$$_\text{RMS}$$ limit.
 | Output power (1 kHz) | > 400 mW | 451 mW | — |
 | Output power (10 kHz) | > 400 mW | 605 mW | — |
 
-*Table 3: Summary of measured results against specifications.*
+*Table 2: Summary of measured results against specifications.*
 
 The three main sources of error are component tolerances, non-ideal op-amps, and breadboard imperfections. The resistors and capacitors carry a ±5% value rating, which in a second-order Sallen-Key topology could compounds across two reactive elements and producing cutoff frequency deviations. Also, the cutoff values were calculated assuming ideal op-amps with no internal resistance and infinite slew rate and bandwidth; the fininte constraints of real op-amps will lead to some deviation from the calculated values due to these imperfections. Finally, the breadboard caused frequent connection issues, and 
 
